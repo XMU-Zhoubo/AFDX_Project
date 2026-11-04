@@ -1,0 +1,63 @@
+{
+  "profile": "665-3 8004 /615A A4; engineering source-supported subset",
+  "cases": [
+    {
+      "id": 0,
+      "metadata": {
+        "part_number": "C35-PN",
+        "hardware": "AFDX",
+        "data_name": "PAYLOAD.BIN",
+        "data_part_number": "DATA-PN",
+        "size": 37,
+        "data_crc16": 15305,
+        "load_crc32": 478932935
+      },
+      "files": {
+        "data": {
+          "path": "D:\\AFDX_Project\\vectors\\615a\\c35\\data0.bin",
+          "length": 37,
+          "sha256": "c33711530b8d12808afd5043810c60b923dd359159b1498ed529256e35fbf0ef"
+        },
+        "header": {
+          "path": "D:\\AFDX_Project\\vectors\\615a\\c35\\header0.bin",
+          "length": 108,
+          "sha256": "42a794d717596f7705b3455271a5c0a0354a39cc0b8c8fc2ce324b066e6f0cdb"
+        },
+        "request": {
+          "path": "D:\\AFDX_Project\\vectors\\615a\\c35\\request0.bin",
+          "length": 25,
+          "sha256": "78c903294ac3dc0f64c5e84afbd2d60c966b998222429654c436830dc515eef8"
+        }
+      }
+    },
+    {
+      "id": 1,
+      "metadata": {
+        "part_number": "C35-PN",
+        "hardware": "AFDX",
+        "data_name": "PAYLOAD.BIN",
+        "data_part_number": "DATA-PN",
+        "size": 4096,
+        "data_crc16": 22415,
+        "load_crc32": 975037055
+      },
+      "files": {
+        "data": {
+          "path": "D:\\AFDX_Project\\vectors\\615a\\c35\\data1.bin",
+          "length": 4096,
+          "sha256": "6e8e7d29b81ed2c8220178348ff4f8e717f50253489a3d39412dfcf88ce67005"
+        },
+        "header": {
+          "path": "D:\\AFDX_Project\\vectors\\615a\\c35\\header1.bin",
+          "length": 108,
+          "sha256": "457e0b47dba66dbe84eb1593ab4c87cb7f8bcd5e991bf81f22f0f2a1ed1771c8"
+        },
+        "request": {
+          "path": "D:\\AFDX_Project\\vectors\\615a\\c35\\request1.bin",
+          "length": 25,
+          "sha256": "78c903294ac3dc0f64c5e84afbd2d60c966b998222429654c436830dc515eef8"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+* -text
+netlist/functional/c42s_application_stats.vo filter=lfs diff=lfs merge=lfs -text

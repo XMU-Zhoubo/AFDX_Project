@@ -1,0 +1,4 @@
+create_clock -name clk -period 10.000 [get_ports {clk}]
+create_clock -name gtx_clk -period 8.000 [get_ports {gtx_clk}]
+create_clock -name phy_a_rx_clk -period 8.000 [get_ports {phy_a_rx_clk}]
+create_clock -name phy_b_rx_clk -period 8.000 [get_ports {phy_b_rx_clk}]

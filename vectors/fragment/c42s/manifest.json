@@ -1,0 +1,115 @@
+{
+  "4096": {
+    "seed": 31,
+    "length": 4096,
+    "sha256": "42191194bfcb44e7dd47d7dd277f00e170ab06f4c0a977cf4dd0a33a270faba8",
+    "UDP_bytes": 4104,
+    "fragments": [
+      {
+        "offset8": 0,
+        "MF": true,
+        "bytes": 1472
+      },
+      {
+        "offset8": 184,
+        "MF": true,
+        "bytes": 1472
+      },
+      {
+        "offset8": 368,
+        "MF": false,
+        "bytes": 1160
+      }
+    ]
+  },
+  "1472": {
+    "seed": 47,
+    "length": 1472,
+    "sha256": "e47c46280414f74af0871829d0d8297cb05efecc86c1bab789eaf0cb5c088f8c",
+    "UDP_bytes": 1480,
+    "fragments": [
+      {
+        "offset8": 0,
+        "MF": true,
+        "bytes": 1472
+      },
+      {
+        "offset8": 184,
+        "MF": false,
+        "bytes": 8
+      }
+    ]
+  },
+  "1471": {
+    "seed": 61,
+    "length": 1471,
+    "sha256": "9dc321f4d02a585887e41b6f65208ca9dc18970cbddbc8636fa1c4a16895d76b",
+    "UDP_bytes": 1479,
+    "fragments": [
+      {
+        "offset8": 0,
+        "MF": true,
+        "bytes": 1472
+      },
+      {
+        "offset8": 184,
+        "MF": false,
+        "bytes": 7
+      }
+    ]
+  },
+  "1470": {
+    "seed": 71,
+    "length": 1470,
+    "sha256": "e9e576d37a8fc436c56a70a8bafdcad802c9c118acf94eb42bbe6629baea9588",
+    "UDP_bytes": 1478,
+    "fragments": [
+      {
+        "offset8": 0,
+        "MF": true,
+        "bytes": 1472
+      },
+      {
+        "offset8": 184,
+        "MF": false,
+        "bytes": 6
+      }
+    ]
+  },
+  "3001": {
+    "seed": 81,
+    "length": 3001,
+    "sha256": "160e2e9a209ed3ccc2c00d4484bbc4134adb0605f1a968d981995752eb10d9a8",
+    "UDP_bytes": 3009,
+    "fragments": [
+      {
+        "offset8": 0,
+        "MF": true,
+        "bytes": 1472
+      },
+      {
+        "offset8": 184,
+        "MF": true,
+        "bytes": 1472
+      },
+      {
+        "offset8": 368,
+        "MF": false,
+        "bytes": 65
+      }
+    ]
+  },
+  "1": {
+    "seed": 91,
+    "length": 1,
+    "sha256": "245843abef9e72e7efac30138a994bf6301e7e1d7d7042a33d42e863d2638811",
+    "UDP_bytes": 9,
+    "fragments": [
+      {
+        "offset8": 0,
+        "MF": false,
+        "bytes": 9
+      }
+    ]
+  }
+}

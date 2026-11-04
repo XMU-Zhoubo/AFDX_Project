@@ -1,0 +1,32 @@
+[
+  {
+    "index": 0,
+    "ID": 24577,
+    "offset_bytes": 2944,
+    "IP_payload_bytes": 1160,
+    "MF": false,
+    "SN": 4,
+    "wire_bytes": 1207,
+    "SHA256": "028cc14f241fdf4e7170fa4ee6de94bb7c1e726dc1336bc884029a19b481b482"
+  },
+  {
+    "index": 1,
+    "ID": 24577,
+    "offset_bytes": 1472,
+    "IP_payload_bytes": 1472,
+    "MF": true,
+    "SN": 5,
+    "wire_bytes": 1519,
+    "SHA256": "220a5044ab7f7d5d7ab9a2a589d52ac6ece5b29551b6f4d4fd81e24f00b7e2b5"
+  },
+  {
+    "index": 2,
+    "ID": 24580,
+    "offset_bytes": 0,
+    "IP_payload_bytes": 1472,
+    "MF": true,
+    "SN": 6,
+    "wire_bytes": 1519,
+    "SHA256": "237d177a6ce605befa3ced251ac980859ca2cfbf9c39059f8a05c433ba35d1b6"
+  }
+]

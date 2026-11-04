@@ -1,0 +1,237 @@
+{
+  "profile": "C34 common LUI/LUR candidate only, A4 public library mapping; no LUS agreement",
+  "cases": [
+    {
+      "number": 0,
+      "name": "lui_accepted",
+      "kind": 0,
+      "length": 15,
+      "accept": true,
+      "expected": {
+        "length": 15,
+        "version": "A4",
+        "status": 1,
+        "description": "Ready"
+      },
+      "path": "D:\\AFDX_Project\\vectors\\615a\\c34\\lui_accepted.bin",
+      "sha256": "2d7afd8f73c017965195fe57b7b1769c1ba3f8fe8c3a139f80b09e7423b097a4"
+    },
+    {
+      "number": 1,
+      "name": "lui_denied",
+      "kind": 0,
+      "length": 19,
+      "accept": true,
+      "expected": {
+        "length": 19,
+        "version": "A4",
+        "status": 4096,
+        "description": "Not ready"
+      },
+      "path": "D:\\AFDX_Project\\vectors\\615a\\c34\\lui_denied.bin",
+      "sha256": "d1e28ee0166d666a8605b43cd6c16d83f07a9c9f6c6a592d6a1a596201b8e084"
+    },
+    {
+      "number": 2,
+      "name": "lui_empty_description",
+      "kind": 0,
+      "length": 9,
+      "accept": true,
+      "expected": {
+        "length": 9,
+        "version": "A4",
+        "status": 1,
+        "description": ""
+      },
+      "path": "D:\\AFDX_Project\\vectors\\615a\\c34\\lui_empty_description.bin",
+      "sha256": "4723918b8c5c84c8323e6a50e8117e93ce7ad8e0b688062fa3b513dc2af120dc"
+    },
+    {
+      "number": 3,
+      "name": "lui_max_description",
+      "kind": 0,
+      "length": 264,
+      "accept": true,
+      "expected": {
+        "length": 264,
+        "version": "A4",
+        "status": 4098,
+        "description": "RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR"
+      },
+      "path": "D:\\AFDX_Project\\vectors\\615a\\c34\\lui_max_description.bin",
+      "sha256": "3d5d8d31e87316839361ffaca2854a99876c0fceed63395f9921bfe8eef584b8"
+    },
+    {
+      "number": 4,
+      "name": "lur_one",
+      "kind": 1,
+      "length": 28,
+      "accept": true,
+      "expected": {
+        "length": 28,
+        "version": "A4",
+        "entries": [
+          {
+            "header": "demo.LUH",
+            "part": "DEMO-001"
+          }
+        ]
+      },
+      "path": "D:\\AFDX_Project\\vectors\\615a\\c34\\lur_one.bin",
+      "sha256": "69b9195be20a7298a6311aae686e967865125df8e4420836c66d93b6f2c3b6ab"
+    },
+    {
+      "number": 5,
+      "name": "lur_four",
+      "kind": 1,
+      "length": 272,
+      "accept": true,
+      "expected": {
+        "length": 272,
+        "version": "A4",
+        "entries": [
+          {
+            "header": "HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHA",
+            "part": "PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPA"
+          },
+          {
+            "header": "HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHB",
+            "part": "PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPB"
+          },
+          {
+            "header": "HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHC",
+            "part": "PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPC"
+          },
+          {
+            "header": "HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHD",
+            "part": "PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPD"
+          }
+        ]
+      },
+      "path": "D:\\AFDX_Project\\vectors\\615a\\c34\\lur_four.bin",
+      "sha256": "e5c7d81375d761704cb087a3cf998825154ab297a42e03d9f29213c68ebcc312"
+    },
+    {
+      "number": 6,
+      "name": "bad_file_length",
+      "kind": 0,
+      "length": 15,
+      "accept": false,
+      "expected": {
+        "rejection": "declared file length mismatch"
+      },
+      "path": "D:\\AFDX_Project\\vectors\\615a\\c34\\bad_file_length.bin",
+      "sha256": "fc312f3e10257e2fd132e92234c802807dd9f10b4df440a7e29c43cd4f268b8e"
+    },
+    {
+      "number": 7,
+      "name": "bad_file_marker",
+      "kind": 0,
+      "length": 15,
+      "accept": false,
+      "expected": {
+        "rejection": "unsupported file protocol marker"
+      },
+      "path": "D:\\AFDX_Project\\vectors\\615a\\c34\\bad_file_marker.bin",
+      "sha256": "0235cb44970ef8c79aa4df1eb87d3976568e6de6a5815bd7fe5050c66a66d079"
+    },
+    {
+      "number": 8,
+      "name": "bad_string_terminator",
+      "kind": 0,
+      "length": 15,
+      "accept": false,
+      "expected": {
+        "rejection": "string length/NUL mismatch"
+      },
+      "path": "D:\\AFDX_Project\\vectors\\615a\\c34\\bad_string_terminator.bin",
+      "sha256": "c1f1f50cfff08d30b26090c93c4422e2e3f1f7127bb1ad909181e9be3f57228c"
+    },
+    {
+      "number": 9,
+      "name": "embedded_NUL",
+      "kind": 0,
+      "length": 15,
+      "accept": false,
+      "expected": {
+        "rejection": "string length/NUL mismatch"
+      },
+      "path": "D:\\AFDX_Project\\vectors\\615a\\c34\\embedded_NUL.bin",
+      "sha256": "42ac10ad65dc61df1aa74524e90351c3cb74dfed19835b319b40a86cf4140d30"
+    },
+    {
+      "number": 10,
+      "name": "truncated",
+      "kind": 0,
+      "length": 14,
+      "accept": false,
+      "expected": {
+        "rejection": "declared file length mismatch"
+      },
+      "path": "D:\\AFDX_Project\\vectors\\615a\\c34\\truncated.bin",
+      "sha256": "0b95a2155fac2246f11ead19ea07bda3eb2f1b130b12aca3ece3485152d257b2"
+    },
+    {
+      "number": 11,
+      "name": "lur_truncated",
+      "kind": 1,
+      "length": 27,
+      "accept": false,
+      "expected": {
+        "rejection": "declared file length mismatch"
+      },
+      "path": "D:\\AFDX_Project\\vectors\\615a\\c34\\lur_truncated.bin",
+      "sha256": "72162a51c2582ab126cdd8b43972e3fe7d5c94cc48ba1df895215db35599f2e5"
+    },
+    {
+      "number": 12,
+      "name": "lur_zero_team_range",
+      "kind": 1,
+      "length": 28,
+      "accept": false,
+      "expected": {
+        "rejection": "entry count outside candidate range"
+      },
+      "path": "D:\\AFDX_Project\\vectors\\615a\\c34\\lur_zero_team_range.bin",
+      "sha256": "b26b7cf101b0299f63958649c77039f9bd46f738fb3296a1586c268fa4442b03"
+    },
+    {
+      "number": 13,
+      "name": "lur_five_team_range",
+      "kind": 1,
+      "length": 28,
+      "accept": false,
+      "expected": {
+        "rejection": "entry count outside candidate range"
+      },
+      "path": "D:\\AFDX_Project\\vectors\\615a\\c34\\lur_five_team_range.bin",
+      "sha256": "a15bfc7f3bb6d20fc74acb80f4a8868e5bb93dff0d948abdc1d5d17eb6c98d98"
+    },
+    {
+      "number": 14,
+      "name": "lur_string_range",
+      "kind": 1,
+      "length": 28,
+      "accept": false,
+      "expected": {
+        "rejection": "string length/NUL mismatch"
+      },
+      "path": "D:\\AFDX_Project\\vectors\\615a\\c34\\lur_string_range.bin",
+      "sha256": "514df670d1f1bb6bf8eae0fe2fc0e816b41a7e948da493fcdd5ad93ab4f0747e"
+    },
+    {
+      "number": 15,
+      "name": "status_endian_error",
+      "kind": 0,
+      "length": 15,
+      "accept": false,
+      "expected": {
+        "rejection": "unsupported initialization status"
+      },
+      "path": "D:\\AFDX_Project\\vectors\\615a\\c34\\status_endian_error.bin",
+      "sha256": "541bf62ee871043f5dd1caab82337368d2dbaaa572faf564b7ae42d187c159bc"
+    }
+  ],
+  "manager_reference": "D:\\AFDX_Project\\reports\\C34\\reference-build\\result.json",
+  "LUS_status": "BLOCKED: numeric24 versus ASCII3 plus zero-header parser self-rejection"
+}

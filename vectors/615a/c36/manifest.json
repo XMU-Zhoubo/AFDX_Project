@@ -1,0 +1,49 @@
+{
+  "files": [
+    {
+      "name": "lno",
+      "length": 15,
+      "sha256": "2d7afd8f73c017965195fe57b7b1769c1ba3f8fe8c3a139f80b09e7423b097a4"
+    },
+    {
+      "name": "lnl",
+      "length": 32,
+      "sha256": "c808c5f033f0f0890ef126a8e22041a81248db7da378f359e7d3af1e6ee8d25d"
+    },
+    {
+      "name": "small_lna",
+      "length": 19,
+      "sha256": "60caa0c12bf568716575782125157afeeaab1f97fff70db7fa44359911dcbb35"
+    },
+    {
+      "name": "big_lna",
+      "length": 19,
+      "sha256": "25f758c900284551247cedb29c05b2bace23061a04eb5a0d858dceb581f54b24"
+    },
+    {
+      "name": "data_small",
+      "length": 37,
+      "sha256": "2ed207014d608d355b84cf912862bed323649da6e9faf2bdb7be3ce3d4fb5f0f"
+    },
+    {
+      "name": "data_big",
+      "length": 65536,
+      "sha256": "7bf01051807786ddf36bb2030ff941a689b73893dd37571f6015d7411132c5b0"
+    }
+  ],
+  "catalog": [
+    {
+      "name": "SMALL.BIN",
+      "object": 5,
+      "length": 37,
+      "seed": 53
+    },
+    {
+      "name": "BIG64.BIN",
+      "object": 6,
+      "length": 65536,
+      "seed": 197
+    }
+  ],
+  "source": "Pinned public A4 grammar; engineering-constructed vectors, not captures"
+}

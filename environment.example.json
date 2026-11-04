@@ -1,0 +1,8 @@
+{
+  "python": "D:/mamba/python.exe",
+  "modelsim": "D:/modeltech64_2020.4/win64/vsim.exe",
+  "elinx_executable": "D:/elinx/eLinx_3.0.7_20250122_ForTeaching/eLinx3.0/eLinx3.0.exe",
+  "official_library": "D:/elinx/eLinx_3.0.7_20250122_ForTeaching/eLinx3.0/Simulation/elinx_lib",
+  "minimum_free_bytes": 10737418240,
+  "RTL_guard_seconds": 900
+}
